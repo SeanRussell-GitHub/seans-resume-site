@@ -18,7 +18,6 @@ function Contact() {
     });
 
     const onSubmit = (e) => {
-        // e.preventDefault();
         send(
             'service_x93h436',
             'template_al9qs7r',
@@ -27,7 +26,6 @@ function Contact() {
         )
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
-                e.target.reset();
             })
             .catch((err) => {
                 console.log('FAILED...', err);

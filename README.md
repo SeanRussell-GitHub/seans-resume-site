@@ -1,6 +1,6 @@
 # Professional Resume
 
-using React, Bootstrap, Javascript
+using React, Bootstrap, Javascript, EmailJS, Netlify
 ## Run / Test / Build Scripts
 
 In the project directory, you can run:
